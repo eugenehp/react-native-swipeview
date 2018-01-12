@@ -9,7 +9,7 @@
 
 ### Installation
 ```bash
-$ npm i react-native-swipeview --save
+$ npm i react-native-swipeview-flat --save
 ```
 
 ### Basic Usage

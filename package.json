@@ -1,6 +1,6 @@
 {
   "name": "react-native-swipeview-flat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SwipeView component compatible with FlatList for React Native.",
   "main": "index.js",
   "scripts": {
