@@ -17,7 +17,7 @@ $ npm i react-native-swipeview-flat --save
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import SwipeView from 'react-native-swipeview';
+import SwipeView from 'react-native-swipeview-flat';
 
 export default class App extends Component {
 
