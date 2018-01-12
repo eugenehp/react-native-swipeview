@@ -49,3 +49,5 @@ dist/
 
 # lib folder
 lib
+
+yarn.lock

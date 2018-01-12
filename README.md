@@ -1,12 +1,4 @@
-<p align="center">
-  <img alt="react-native-swipeview" src="http://res.cloudinary.com/rishabhbhatia/image/upload/c_scale,w_200/v1504552231/swipeview/react-native-swipeview.png">
-</p>
-
-# React Native SwipeView
-
-### Todo-list app built with SwipeView [(Watch it on YouTube)](https://youtu.be/Dql1nQ73CY4)
-
-![alt text](http://res.cloudinary.com/rishabhbhatia/image/upload/c_scale,w_200/v1506861923/swipeview/todo-app-v1.0.gif)
+# React Native SwipeView Flat
 
 
 ## Getting Started
@@ -14,7 +6,6 @@
 - [Installation](#installation)
 - [Basic Usage](#basic-usage)
 - [Properties](#properties)
-- [Todo-list Project](https://github.com/rishabhbhatia/react-native-todo)
 
 ### Installation
 ```bash
@@ -35,6 +26,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <SwipeView
+          scroll={scrolling => console.log(scrolling)}
           renderVisibleContent={() => <Text style={styles.text}>SwipeMe</Text>}
         />
       </View>
@@ -79,6 +71,7 @@ const styles = StyleSheet.create({
 | swipingLeft | `bool` | Should swiping initialize with right-to-left. This should be useful for swipe previews ex: +ve previewOpenValue `swipingLeft: false` & -ve previewOpenValue `swipingLeft: true`. | true |
 | recalculateHiddenLayout | `bool` | Enable hidden row onLayout calculations to run always. | false |
 | directionalDistanceChangeThreshold | `number` | Change the sensitivity of the row. | 2 |
+| scroll | `func` | Called when swipe actions starts/ends
 
 #### Views
 | Prop  | Type | Description | Default|
@@ -93,11 +86,14 @@ const styles = StyleSheet.create({
 
 ## Credits
 
-Inspiration: react-native-swipe-list-view [(Github)](https://github.com/jemise111/react-native-swipe-list-view)
+Inspirations:
+* react-native-swipe-list-view [(Github)](https://github.com/jemise111/react-native-swipe-list-view)
+* react-native-todo [(GitHub)](https://github.com/rishabhbhatia/react-native-todo)
+* react-native-swipeview [(GitHub)](https://github.com/rishabhbhatia/react-native-swipeview)
 
 ## Questions
 
-Feel free to [Contact me](mailto:rishabh.bhatia08@gmail.com) or [Create an issue](https://github.com/rishabhbhatia/react-native-swipeview/issues/new)
+Create an issue](https://github.com/eugenehp/react-native-swipeview/issues/new)
 
 ## License
 

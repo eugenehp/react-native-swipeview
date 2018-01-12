@@ -1,7 +1,7 @@
 {
-  "name": "react-native-swipeview",
-  "version": "1.0.3",
-  "description": "SwipeView component for React Native.",
+  "name": "react-native-swipeview-flat",
+  "version": "1.0.0",
+  "description": "SwipeView component compatible with FlatList for React Native.",
   "main": "index.js",
   "scripts": {
     "start": "react-native start",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rishabhbhatia/react-native-swipeview.git"
+    "url": "git+https://github.com/eugenehp/react-native-swipeview.git"
   },
   "keywords": [
     "react-native",
@@ -19,12 +19,12 @@
     "iOS",
     "android"
   ],
-  "author": "rishabhbhatia",
+  "author": "rishabhbhatia, eugenehp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rishabhbhatia/react-native-swipeview/issues"
+    "url": "https://github.com/eugenehp/react-native-swipeview/issues"
   },
-  "homepage": "https://github.com/rishabhbhatia/react-native-swipeview#readme",
+  "homepage": "https://github.com/eugenehp/react-native-swipeview#readme",
   "dependencies": {
     "prop-types": "^15.5.10"
   },
