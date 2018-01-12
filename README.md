@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
 
 ## Contribution
 
-- [@rishabhbhatia](mailto:rishabh.bhatia08@gmail.com) Author.
+* rishabhbhatia
+* eugenehp
 
 ## Credits
 
