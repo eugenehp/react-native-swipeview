@@ -80,6 +80,8 @@ export default class SwipeView extends Component {
 		const absDx = Math.abs(dx);
 		const absDy = Math.abs(dy);
 
+		if(this.props.scroll) this.props.scroll(true);
+
 		if(this.horizontalSwipeGestureEnded)
 			return;
 
@@ -125,6 +127,7 @@ export default class SwipeView extends Component {
 	};
 
 	handlePanResponderEnd = (e, gestureState) => {
+		if(this.props.scroll) this.props.scroll(false);
 		if(!this.horizontalSwipeGestureEnded) this.closeRow();
 	};
 
